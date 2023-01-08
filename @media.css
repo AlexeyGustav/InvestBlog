@@ -1,0 +1,162 @@
+   /* Large desktops and laptops */
+@media (min-width: 1200px) {
+   
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1190px) {
+    .avatar {
+        display: block;
+        width: 60%;
+    }
+    
+    h1 {
+        display: block;
+        text-align: center;
+}
+.phone {
+    margin: 20px 100px;
+}
+.table li{
+    padding-left: 600px;
+}
+.c {
+    display: none;
+
+}
+.dtpone, .dtptwo, .dtpfor, .dtpfive {
+    width: 191px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    
+    .phone {
+        margin: 20px 100px;
+    }
+    .table li{
+        padding-left: 0px;
+        display: block;
+        list-style: none; 
+        
+    
+        align-items: center;
+    }
+   
+    .conteiner {
+        display: flex;
+    }
+    .car {
+        display: block;
+        margin: 0px 0px 280px 20px;
+    }
+    .car2 {
+        display: block;
+        margin: 0px 0px 0px 20px;
+    }
+    }
+    .dtpone, .dtptwo, .dtpthre, .dtpfor, .dtpfive {
+        width: 170px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .table {
+        margin: 20px 0px 20px 10px;
+        /*padding:  20px 0px 20px -20px;*/
+   
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .avatar {
+        display: block;
+        text-align: center;
+    }
+    .phone {
+        margin: 20px 100px;
+    }
+    .card-2 {       
+        margin-left: 50px;
+    }
+
+.twoo {
+    display: none;
+}
+    .dtpone, .dtptwo,  .dtpfor, .dtpfive {
+        width: 163px;
+    }
+
+    .dtpthre {
+        display: none;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+.avatar {
+width: 20%;
+height: 20%;
+margin-top: 40px;
+}
+h1 {
+    letter-spacing: none;
+    text-align: none;
+}
+.stil p {
+    font-size: 18px;
+    margin-left: -20px;
+    text-align: left;
+    margin-right: 40px;
+}
+.phone {
+   margin: 10px 10px 10px -115px;
+}
+.nexia {
+    display: block;
+    float: none;
+    width: 80%;
+}
+.renult {
+    display: flow-root;
+}
+
+.table {
+    display: block;
+    padding-top: 10px;
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+   
+}
+.trax :last-child {
+margin-right: 0px;
+}
+.tor {
+    width: 100%;
+    margin-top: 950px;
+}
+
+.table ul {
+    text-align: left;
+}
+
+.dtpone .dtptwo .dtpfor .dtpfive {
+    width: 15%;
+    display: block;
+    margin-left: 10px;
+}
+.dtpthre {
+    display: none;
+}
+.card-2 {
+    display: block;
+    width: 100%;
+}
+
+}

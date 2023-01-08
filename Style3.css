@@ -1,0 +1,235 @@
+body p {
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    line-height: 20px;
+}
+body {
+    background-image: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+}
+.avatar {
+    width:300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+.info > .avatar {
+    transform: none;
+    }
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    /* font-family: 'Special Elite', cursive; */
+    /* background-color: #EE82EE; */
+    letter-spacing: 23px;
+    /*расстояние между буквами*/
+    width: 100%;
+    text-align: center; 
+
+}
+.freedom h1 {
+
+    background-image: url(kosmos.jpg);
+    background-size: cover; 
+    /* что бы изображение не делилось а было по ширине и высоте текста */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.manyavto {
+    background-color: #ddaf78;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+.phone {
+    background-color: #3cf096;
+    margin: 20px 300px 20px 300px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+     /*текст по центру*/
+     line-height: 30px;
+     /*расстояние между строчками по вертикали*/
+}
+.phone h2{
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+}
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.info {
+display: flex;
+}
+.stil {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.stil p {
+    font-size: 30px;
+    line-height: 30px;
+}
+p {
+    line-height: 20px;
+    text-indent: 10px;
+}
+.nexia {
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin-bottom: 5px;
+    
+}
+span {
+    background-color: #90EE90;
+}
+
+.photo1 {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin-bottom: 5px;  
+}
+.photo2 {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin-bottom: 5px;   
+}
+.lancer {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin-bottom: 5px;
+}
+.lancer2 {
+    width: 300px;
+    height: 240px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin-bottom: 5px;
+}
+.trax {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 240px;
+ }
+
+/*адаптация картинок по размеру*/
+
+
+.table {
+    background-color: aquamarine;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.table ul {
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.table h2 {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+.table li {
+    list-style-type: none;
+}
+.renult img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 200px;
+}
+
+
+img:hover {
+    transform: scale(1.3);
+    /*увеличение картинки*/
+}
+
+.finish {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #FA8072;
+    letter-spacing: 5px;
+    font-family: 'Special Elite', cursive;
+}
+   
+
+.phone h2 {
+    font-family: 'Special Elite', cursive;
+}
+
+
+/*замена точки маркера списка на картинку
+.finish {
+    margin-top: none;
+}
+.finish ul {
+    list-style-type: none;
+    list-style-image: url(logo1.png);
+    
+}
+поменял маркер списка на картинку*/
+
+.tachki {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.dtpone, .dtptwo, .dtpthre, .dtpfor, .dtpfive {
+    
+    border-radius: 20px; 
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    /* width: 70px; */
+    
+    
+    
+}
+
+.end {
+    width: 100%;
+    margin-top: 0px;
+    display: block;
+
+}
+.ender {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 8px;
+    font-family: 'Special Elite', cursive;
+    font-size: 17px;
+    
+}
+.ender h3{
+    background-color: rgba(158, 245, 236, 0.863);
+}
