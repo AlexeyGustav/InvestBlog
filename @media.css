@@ -101,6 +101,11 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+body p {
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
 .avatar {
 width: 20%;
 height: 20%;
