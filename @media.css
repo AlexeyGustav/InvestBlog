@@ -101,29 +101,42 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+body {
+    margin-left: 5px;
+    margin-right: 5px;
+}
 body p {
     font-family: 'Sofia Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
 }
 .avatar {
-width: 20%;
-height: 20%;
-margin-top: 40px;
+width: 50%;
+height: 50%;
+/* margin-top: 40px; */
 }
 h1 {
-    letter-spacing: none;
+    letter-spacing: 1px;
     text-align: none;
 }
 .stil p {
     font-size: 18px;
-    margin-left: -20px;
-    text-align: left;
-    margin-right: 40px;
+    font-family: 'Sofia Sans', sans-serif;
+    line-height: 27px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .phone {
-   margin: 10px 10px 10px -115px;
+    width: 70%;
+    margin: none;
+    padding: none;
 }
+
 .nexia {
     display: block;
     float: none;
