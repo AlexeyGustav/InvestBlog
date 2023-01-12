@@ -10,12 +10,17 @@ body p {
     box-sizing: border-box;
 }
 
+
 body {
     width: 100%;
     height: 100%;
     margin: 0px !important;
-    background-image: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);  
+    background-image: -webkit-linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db) !important;  
+    background-image: -moz-linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db) !important;  
+    background-image: -o-linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db) !important;  
+    background-image: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db) !important;
 }
+
 
 .info {
     display: flex;
